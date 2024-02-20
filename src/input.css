@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width: 640px) {
+  .free {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 2rem;
+  }
+  .card {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .test {
+    display: block;
+  }
+  .local {
+    display: block;
+  }
+  .sale {
+   display: block;
+ }
+ .logo{
+   display: flex;
+   gap: 2rem;
+
+ }
+ 
+ .footer{
+   display: grid ;
+   grid-template-columns:  repeat(2, 2fr);
+ }
+ .all{
+   display: flex;
+  gap: 3rem;
+
+
+
+ }
+}
+
+@media only screen and (max-width: 500px) {
+  .test {
+    display: inline;
+  }
+  .local {
+   display: inline;
+ }
+ .footer{
+   display: grid ;
+   grid-template-columns:  repeat(1, 1fr);
+ }
+}
+@media only screen and (max-width: 480px) {
+   .free {
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     gap: 2rem;
+   }
+ }
+ @media only screen and (max-width: 450px) {
+   .card {
+     padding-left: 10px;
+     padding-right: 10px;
+   }
+ 
+ }
+@media only screen and (max-width: 390px) {
+ 
+  .sale {
+   display: inline;
+ }
+}
+@media only screen and (max-width: 350px) {
+ 
+   .logo{
+      display: block;
+  
+
+    }
+}
+@media only screen and (max-width: 530px) {
+ 
+   .all{
+      display: block;
+ 
+    }
+}
